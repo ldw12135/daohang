@@ -1,0 +1,52 @@
+html,
+body {
+  background: white;
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+  height: 30px;
+  color: #CA952D;
+}
+header .nav {
+  width: 1200px;
+  margin: 0 auto;
+  height: 30px;
+  text-align: center;
+  font-size: 16px;
+}
+header .nav li {
+  float: left;
+  width: 200px;
+  list-style-type: none;
+  line-height: 30px;
+}
+header .nav li a,
+header .nav-list li a {
+  text-decoration: none;
+  color: #CA952D;
+}
+header .nav-list {
+  position: relative;
+  display: none;
+  left: -40px;
+  z-index: 99;
+  width: 100px;
+  background: #00ff00;
+}
+header .show-list {
+  display: block;
+}
+.instruction {
+  position: fixed;
+  top: 50%;
+  left: 30%;
+  clear: both;
+  color: #CA952D;
+  font-size: 20px;
+}
+.instruction a {
+  color: #CA952D;
+  text-decoration: none;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/nav.css">
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+</head>
+<body>
+<header class="nav-header">
+    <ul class="nav" id="nav">
+        <li>
+            <a href="javascript:void(0)">首页</a>
+            <ul class="nav-list">
+                <li><a href="javascript:void(0)">首页</a></li>
+                <li><a href="javascript:void(0)">首页</a></li>
+                <li><a href="javascript:void(0)">首页</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="javascript:void(0)">导航一</a>
+            <ul class="nav-list">
+                <li><a href="javascript:void(0)">导航一</a></li>
+                <li><a href="javascript:void(0)">导航一</a></li>
+                <li><a href="javascript:void(0)">导航一</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="javascript:void(0)">导航二</a>
+            <ul class="nav-list">
+                <li><a href="javascript:void(0)">导航二</a></li>
+                <li><a href="javascript:void(0)">导航二</a></li>
+                <li><a href="javascript:void(0)">导航二</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="javascript:void(0)">导航三</a>
+            <ul class="nav-list">
+                <li><a href="javascript:void(0)">导航三</a></li>
+                <li><a href="javascript:void(0)">导航三</a></li>
+                <li><a href="javascript:void(0)">导航三</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="javascript:void(0)">导航四</a>
+            <ul class="nav-list">
+                <li><a href="javascript:void(0)">导航四</a></li>
+                <li><a href="javascript:void(0)">导航四</a></li>
+                <li><a href="javascript:void(0)">导航四</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="javascript:void(0)">导航五</a>
+            <ul class="nav-list">
+                <li><a href="javascript:void(0)">导航五</a></li>
+                <li><a href="javascript:void(0)">导航五</a></li>
+                <li><a href="javascript:void(0)">导航五</a></li>
+            </ul>
+        </li>
+    </ul>
+</header>
+
+<script !src="">
+    $(function () {
+        $("#nav li").each(function () {
+            $(this).hover(function () {
+                $(this).find(".nav-list").addClass("show-list");
+            },function () {
+                $(this).find(".nav-list").removeClass("show-list");
+            })
+        })
+    })
+</script>
+</body>
+</html>
